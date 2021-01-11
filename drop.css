@@ -1,0 +1,40 @@
+#container{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.dropTrigger{ 
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.dropContent{
+    display: none;
+    height: 250px;
+    margin: 0px;
+    position: relative;
+}
+.list{
+    list-style: none;
+    margin: 0px;
+    border:  1px solid #ccc;
+    border-top: 0px ;
+    line-height: 49px;
+}
+.jsButton{
+    width: 100%;
+    background-color: aliceblue;
+    margin: 0px;
+    height: 50px;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.active{
+    display: block;
+    padding-left: 0px;
+    z-index: -100;
+}
